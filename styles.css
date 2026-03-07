@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #a83232;
-    --color-secondary: #e3acac;
-    --color-accent: #acbee3;
-    --color-bg: #fdf6f6;
-    --color-text: #1a0a0a;
-    --color-text-muted: #5a3a3a;
+    --color-primary: #1e8a7a;
+    --color-secondary: #a8ddd5;
+    --color-accent: #4db6a8;
+    --color-bg: #f6faf9;
+    --color-text: #1a0a00;
+    --color-text-muted: #5a3a1a;
 }
 
 * {
@@ -106,7 +106,7 @@ nav ul li a:focus {
     border: 1px solid var(--color-secondary);
     border-radius: 8px;
     padding: 25px 30px;
-    box-shadow: 0 2px 8px rgba(168, 50, 50, 0.08);
+    box-shadow: 0 2px 8px rgba(30, 138, 122, 0.08);
 }
 
 .hero-text h1 {
@@ -129,7 +129,7 @@ nav ul li a:focus {
     background-color: #fff;
     border-radius: 10px;
     padding: 40px 50px;
-    box-shadow: 0 2px 12px rgba(168, 50, 50, 0.08);
+    box-shadow: 0 2px 12px rgba(30, 138, 122, 0.08);
     border-top: 4px solid var(--color-secondary);
 }
 
