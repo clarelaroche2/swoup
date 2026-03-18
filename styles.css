@@ -1,10 +1,10 @@
 :root {
-    --color-primary: #1e8a7a;
-    --color-secondary: #a8ddd5;
-    --color-accent: #4db6a8;
-    --color-bg: #f6faf9;
+    --color-primary: #c9395a;
+    --color-secondary: #f9b4c0;
+    --color-accent: #f07040;
+    --color-bg: #fff4f0;
     --color-text: #1a0a00;
-    --color-text-muted: #5a3a1a;
+    --color-text-muted: #7a3921;
 }
 
 * {
@@ -102,11 +102,7 @@ nav ul li a:focus {
     margin-top: 30px;
     width: 100%;
     max-width: 700px;
-    background-color: #fff;
-    border: 1px solid var(--color-secondary);
-    border-radius: 8px;
     padding: 25px 30px;
-    box-shadow: 0 2px 8px rgba(30, 138, 122, 0.08);
 }
 
 .hero-text h1 {
@@ -126,11 +122,7 @@ nav ul li a:focus {
 .page-content {
     max-width: 760px;
     margin: 60px auto;
-    background-color: #fff;
-    border-radius: 10px;
     padding: 40px 50px;
-    box-shadow: 0 2px 12px rgba(30, 138, 122, 0.08);
-    border-top: 4px solid var(--color-secondary);
 }
 
 .page-content h2 {
