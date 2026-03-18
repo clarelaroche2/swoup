@@ -1,10 +1,11 @@
 :root {
-    --color-primary: #c9395a;
-    --color-secondary: #f9b4c0;
+    --color-primary: #ff69b4;
+    --color-secondary: #ffaed7;
     --color-accent: #f07040;
     --color-bg: #fff4f0;
     --color-text: #1a0a00;
     --color-text-muted: #7a3921;
+    --color-heading-contrast: #a0005a;
 }
 
 * {
@@ -94,8 +95,6 @@ nav ul li a:focus {
     max-width: 700px;
     max-height: 380px;
     object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .hero-text {
@@ -137,6 +136,21 @@ nav ul li a:focus {
     line-height: 1.8;
     color: var(--color-text-muted);
     margin-bottom: 14px;
+}
+
+/* About page vertical stripes */
+.striped-bg {
+    background: repeating-linear-gradient(
+        to right,
+        var(--color-primary) 0px,
+        var(--color-primary) 40px,
+        var(--color-secondary) 40px,
+        var(--color-secondary) 80px
+    );
+}
+
+.striped-bg .page-content h2 {
+    color: var(--color-heading-contrast);
 }
 
 /* Responsive */
