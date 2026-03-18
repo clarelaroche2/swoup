@@ -1,10 +1,11 @@
 :root {
-    --color-primary: #1e8a7a;
-    --color-secondary: #a8ddd5;
-    --color-accent: #4db6a8;
-    --color-bg: #f6faf9;
+    --color-primary: #ff69b4;
+    --color-secondary: #ffaed7;
+    --color-accent: #f07040;
+    --color-bg: #fff4f0;
     --color-text: #1a0a00;
-    --color-text-muted: #5a3a1a;
+    --color-text-muted: #7a3921;
+    --color-heading-contrast: #a0005a;
 }
 
 * {
@@ -94,19 +95,13 @@ nav ul li a:focus {
     max-width: 700px;
     max-height: 380px;
     object-fit: contain;
-    border-radius: 10px;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
 }
 
 .hero-text {
     margin-top: 30px;
     width: 100%;
     max-width: 700px;
-    background-color: #fff;
-    border: 1px solid var(--color-secondary);
-    border-radius: 8px;
     padding: 25px 30px;
-    box-shadow: 0 2px 8px rgba(30, 138, 122, 0.08);
 }
 
 .hero-text h1 {
@@ -126,11 +121,7 @@ nav ul li a:focus {
 .page-content {
     max-width: 760px;
     margin: 60px auto;
-    background-color: #fff;
-    border-radius: 10px;
     padding: 40px 50px;
-    box-shadow: 0 2px 12px rgba(30, 138, 122, 0.08);
-    border-top: 4px solid var(--color-secondary);
 }
 
 .page-content h2 {
@@ -145,6 +136,21 @@ nav ul li a:focus {
     line-height: 1.8;
     color: var(--color-text-muted);
     margin-bottom: 14px;
+}
+
+/* About page vertical stripes */
+.striped-bg {
+    background: repeating-linear-gradient(
+        to right,
+        var(--color-primary) 0px,
+        var(--color-primary) 40px,
+        var(--color-secondary) 40px,
+        var(--color-secondary) 80px
+    );
+}
+
+.striped-bg .page-content h2 {
+    color: var(--color-heading-contrast);
 }
 
 /* Responsive */
